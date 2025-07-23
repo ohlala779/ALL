@@ -169,7 +169,7 @@ div[id^=jwplayer][id$=wrapper],
   max-height:none !important;
   min-height:0 !important;
   height:100% !important;
-  position:relative !important;
+  position:absolute !important;
   top:0 !important;
   left:0 !important;
 }
