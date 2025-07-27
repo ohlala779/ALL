@@ -30,7 +30,7 @@ a {
 }
 a:hover {
   color:#b70000;
-  text-decoration:underline;
+  text-decoration:none;
 }
 a img {border:0}
 :focus {outline:0}
