@@ -1377,7 +1377,8 @@ h1.entry-title {
   border-color:#2b2b2b;
   color:#fff;
 }
-.status {
+.status,
+.video-rank {
   font-size:.9em;
   position:absolute;
   top:0;
@@ -1596,14 +1597,4 @@ p a {
 }
 ;
 }
-.video-rank {
-    font-size: .9em;
-    position: absolute;
-    top: 0;
-    border-left: 3px solid #ea4335;
-    border-radius: 0 4px 4px 0;
-    background: none repeat scroll 0 0 rgba(17, 17, 17, .6);
-    margin-top: 2px;
-    padding: 2px 4px;
-    color: #fff;
-}
+
