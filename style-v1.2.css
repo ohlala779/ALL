@@ -906,7 +906,7 @@ h2#page-title {
 }
 #report-error {
   display:inline-flex;
-  background-image: linear-gradient(140deg, rgb(0 0 0) 0%, rgb(245 54 54) 50%, rgb(245 54 54) 100%);
+  background: linear-gradient(140deg, rgb(0 0 0) 0%, rgb(245 54 54) 50%, rgb(245 54 54) 100%);
   padding:2px 4px;
   border-radius:4px;
   font-size:16px;
@@ -1597,6 +1597,7 @@ p a {
 }
 ;
 }
+
 
 
 
