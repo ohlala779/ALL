@@ -912,7 +912,7 @@ h2#page-title {
   font-size:16px;
   position:absolute;
   margin-top:-12px;
-  color:#bdbdbd;
+  color:#e1e1e1;
   margin-left:0;
 }
 #report-error:before {
@@ -1597,6 +1597,7 @@ p a {
 }
 ;
 }
+
 
 
 
