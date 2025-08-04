@@ -918,10 +918,10 @@ h2#page-title {
 #report-error:before {
   content:'';
   background-image:url(./images/reports.svg);
-  background-size:16px;
+  background-size:18px;
   width:18px;
   height:20px;
-  margin-right:2px;
+ 
   background-repeat:no-repeat;
   padding:0 2px;
   display:inline-flex;
@@ -1597,6 +1597,7 @@ p a {
 }
 ;
 }
+
 
 
 
