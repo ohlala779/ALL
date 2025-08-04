@@ -917,7 +917,7 @@ h2#page-title {
 }
 #report-error:before {
   content:'';
-  background-image:url(./images/warning-svgrepo-com.svg);
+  background-image:url(./images/reports.svg);
   background-size:16px;
   width:18px;
   height:20px;
@@ -1597,6 +1597,7 @@ p a {
 }
 ;
 }
+
 
 
 
