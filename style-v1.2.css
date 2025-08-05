@@ -906,7 +906,7 @@ h2#page-title {
   margin-top:-12px;
   margin-left:94px;
   color: #ff8400;
-  cursor: pointer;
+
 }
 #report-error {
   display:inline-flex;
@@ -918,6 +918,7 @@ h2#page-title {
   margin-top:-12px;
   color:#e1e1e1;
   margin-left:0;
+  cursor: pointer;
 }
 #report-error:before {
   content:'';
@@ -1607,6 +1608,7 @@ p a {
 }
 ;
 }
+
 
 
 
