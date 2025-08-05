@@ -905,6 +905,7 @@ h2#page-title {
   position:absolute;
   margin-top:-12px;
   margin-left:94px;
+  color: #ff8400;
 }
 #report-error {
   display:inline-flex;
@@ -1605,6 +1606,7 @@ p a {
 }
 ;
 }
+
 
 
 
