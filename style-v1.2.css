@@ -756,7 +756,9 @@ span.icon-search {
   border-top:1px solid #fff;
   padding:20px 0;
 }
-.screen {margin:0 0 20px}
+.screen {margin:0 0 20px;
+         background: #000 url(images/loading-bert.gif) no-repeat center center;
+        }
 .screen .thumb {
   width:950px;
   height:540px;
@@ -949,6 +951,12 @@ h2#page-title {
   vertical-align:middle;
   margin-right:2px;
 }
+.thumb.loading .overlay {
+    background: rgba(0,0,0,.75) url(images/loading-bert.gif) no-repeat center center!important;
+    visibility: visible;
+    opacity: 1
+}
+
 .homemenu a:before {
   background-image:url(./images/Home.svg);
   width:16px;
@@ -1597,6 +1605,7 @@ p a {
 }
 ;
 }
+
 
 
 
