@@ -1411,13 +1411,8 @@ h1.entry-title {
   border-radius:4px;
   text-transform:lowercase;
 }
-.performer {padding-top:8px}
+
 .performer a {
-  padding:5px;
-  white-space:nowrap;
-  background:#2b2b2b;
-  border-left:3px solid #f90;
-  border-radius:0 4px 4px 0;
   cursor:pointer;
 }
 .video-stats span {
@@ -1608,6 +1603,7 @@ p a {
 }
 ;
 }
+
 
 
 
