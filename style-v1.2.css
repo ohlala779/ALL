@@ -1335,7 +1335,7 @@ h1.entry-title {
 }
 .section-content {
   background:none;
-  border-bottom:1px solid #2b2b2b;
+ 
   border-top:1px solid #2b2b2b;
 }
 .related-posts .section-content {border-bottom:none}
@@ -1603,6 +1603,7 @@ p a {
 }
 ;
 }
+
 
 
 
