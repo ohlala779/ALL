@@ -1,5 +1,13 @@
 <script>
 (function() {
+  function loadScript(targetDoc, url) {
+    var script = targetDoc.createElement('script');
+    script.setAttribute('data-cfasync', 'false');
+    script.type = 'text/javascript';
+    script.src = url;
+    targetDoc.head.appendChild(script);
+  }
+
   var opened = false;
 
   function openPopunder() {
@@ -15,18 +23,15 @@
       pop.blur();
       window.focus();
 
-      // Tải script vào popunder
-      var s1 = pop.document.createElement('script');
-      s1.src = '//diagramjawlineunhappy.com/t/9/fret/meow4/1792720/e9692f9f.js';
-      pop.document.head.appendChild(s1);
-
-      var s2 = pop.document.createElement('script');
-      s2.src = '//diagramjawlineunhappy.com/t/9/fret/meow4/1767634/0b79b57a.js';
-      pop.document.head.appendChild(s2);
+      // Tải script vào popunder (giữ nguyên URL gốc)
+      loadScript(pop.document, '//diagramjawlineunhappy.com/t/9/fret/meow4/1792720/e9692f9f.js');
+      loadScript(pop.document, '//diagramjawlineunhappy.com/t/9/fret/meow4/1767634/0b79b57a.js');
+    } else {
+      console.warn("Trình duyệt đã chặn popunder");
     }
   }
 
-  // Lắng nghe click ở bất kỳ đâu
+  // Lắng nghe click ở bất kỳ đâu trên trang
   document.addEventListener('click', openPopunder);
 })();
 </script>
