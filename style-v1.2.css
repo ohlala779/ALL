@@ -1605,6 +1605,18 @@ p a {
 }
 
 
+ #ad-container {
+      width: 300px; /* chiều rộng quảng cáo */
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      margin: 20px auto;
+    }
+    #ad-container img {
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
 
 
 
