@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
             link.target = '_blank'; // mở tab mới
 
             var img = document.createElement('img');
-            img.src = '/images/coixxQC.webp';
+            img.src = 'https://subjav.cv/images/coixxQC.webp';
             img.alt = 'Quảng cáo';
             img.style.maxWidth = '100%'; // responsive
 
