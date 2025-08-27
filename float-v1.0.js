@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
             script.async = true;
             script.setAttribute("data-cfasync", "false");
             script.setAttribute("data-clbaid", "");
-            script.src = "//chaseherbalpasty.com/lv/esnk/2058133/code.js";
+            script.src = "//clammyendearedkeg.com/bn.js";
 
             var div = document.createElement('div');
             div.setAttribute("data-cl-spot", "2058133");
